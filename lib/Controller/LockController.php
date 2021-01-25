@@ -36,7 +36,7 @@ use OCA\FilesLock\AppInfo\Application;
 use OCA\FilesLock\Service\FileService;
 use OCA\FilesLock\Service\LockService;
 use OCA\FilesLock\Service\MiscService;
-use OCP\AppFramework\Controller;
+use OCP\AppFramework\OCSController;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\IRequest;
 use OCP\IUserSession;
@@ -47,7 +47,7 @@ use OCP\IUserSession;
  *
  * @package OCA\FilesLock\Controller
  */
-class LockController extends Controller {
+class LockController extends OCSController {
 
 
 	use TNCDataResponse;
